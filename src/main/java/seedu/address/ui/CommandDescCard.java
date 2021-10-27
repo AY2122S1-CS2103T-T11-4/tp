@@ -82,6 +82,12 @@ public class CommandDescCard extends UiPart<TitledPane> {
                     + "them as a list with index numbers.");
             this.examples.setText("find Jacob");
             break;
+        case FREE_SLOTS:
+            this.getRoot().setText("Free Slots Command");
+            this.format.setText("free_slots");
+            this.description.setText("Displays all free slots in schedule");
+            this.examples.setText("free_slots");
+            break;
         case HELP:
             this.getRoot().setText("Help Command");
             this.format.setText("help");

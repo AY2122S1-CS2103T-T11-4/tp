@@ -11,6 +11,7 @@ public enum CommandEnum {
     EDIT,
     EXIT,
     FIND,
+    FREE_SLOTS,
     HELP,
     LIST,
     NEXT_EVENT,
