@@ -40,6 +40,7 @@ Action | Format | Examples
 **[Delete](#53-deleting-a-consultation-event--delete)** | `delete INDEX` | `delete 3`
 **[Edit](#54-editing-a-consultation-event--edit)** | `edit INDEX [n/NAME] [d/DATE] [t/TIMESLOT] [l/LOCATION] [tag/TAG]... [r/REMARK]`  | `edit 2 n/Quan Teng Foong` <br> `edit 6 tag/Zoom Meeting`
 **[Find](#55-finding-a-consultation-event--find)** | `find KEYWORD`  | `find Teng Foong`
+**[List Free Slots](#55-listing-all-free-slots--free_slots)** | `free_slots` | -
 **[Help](#56-viewing-help--help)** | `help` | -
 **[List](#57-listing-all-consultation-events--list)** | `list` | -
 **[Display Next Event](#58-displaying-the-next-consultation-event--next_event)** | `next_event` | -
@@ -168,6 +169,11 @@ Format: `find KEYWORD [MORE_KEYWORDS]...`
 
 Example(s): 
 * `find Jacob`
+
+### 5.5 Listing all Free Slots : `free_slots`
+Lists down all free slots in the schedule from today until the last event or blocked slot.
+
+Format: `free_slots`
 
 ### 5.6 Viewing help : `help`
 
