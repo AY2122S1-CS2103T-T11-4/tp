@@ -13,6 +13,7 @@ public enum CommandEnum {
     FIND,
     HELP,
     LIST,
+    LIST_FREE,
     NEXT_EVENT,
     UPCOMING_EVENTS;
 }

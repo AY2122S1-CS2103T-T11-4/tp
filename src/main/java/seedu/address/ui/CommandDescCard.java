@@ -94,6 +94,11 @@ public class CommandDescCard extends UiPart<TitledPane> {
             this.description.setText("Lists down all consultation events scheduled in DukePro(f)");
             this.examples.setText("list");
             break;
+        case LIST_FREE:
+            this.getRoot().setText("List Free Slots Command");
+            this.format.setText("list_free");
+            this.description.setText("Lists down all free time slots in DukePro(f) from today until the last event or blocked slot.");
+            this.examples.setText("list_free");
         case NEXT_EVENT:
             this.getRoot().setText("Next Event Command");
             this.format.setText("next_event");
