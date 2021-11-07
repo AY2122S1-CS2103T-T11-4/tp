@@ -38,10 +38,10 @@ interact with it.
 
 ## Table of Contents
 ***
-<div class="segment">
+
 * Table of Contents
 {:toc}
-</div>
+
 
 ## 1. Purpose
 ***
@@ -131,7 +131,7 @@ Listed below are the commands that DukePro(f) supports, in alphabetical order:
 
 Action | Format | Example(s)
 --------|-------|-------
-**[Add](#51-adding-a-consultation-event--add)** | `add n/NAME d/DATE t/TIMESLOT l/LOCATION [tag/TAG]... [r/REMARK]` | `add n/Lulu Yousef d/2020-01-01 t/0800-0900 l/NUS tag/Important tag/supplementary r/May switch to Zoom`
+**[Add](#51-adding-a-consultation-event--add)** | `add n/NAME d/DATE t/TIMESLOT l/LOCATION [tag/TAG]... [r/REMARK]` | `add n/Lulu Yousef d/2020-01-01 t/0800-0900 l/NUS tag/Important tag/Supplementary r/May switch to Zoom`
 **[Add Blocked Time Slots](#511-adding-a-blocked-time-slot--block)** | `block d/DATE t/TIMESLOT` | `block d/2020-01-01 t/0800-0900`
 **[Clear](#57-clearing-all-consultation-events--clear)** | `clear`  | -
 **[Delete](#52-deleting-a-consultation-event--delete)** | `delete INDEX` | `delete 3`
